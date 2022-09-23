@@ -18,4 +18,16 @@ if(input==="Rock" && aiPick==="Rock") {
     alert("You lose!")
 }else if(input==="Rock" && aiPick==="Scissors") {
     alert("You win!")
+}else if(input==="Paper" && aiPick==="Paper") {
+    alert("Tie game!") //Rock vs Rock
+} else if(input==="Paper" && aiPick==="Scissors") {
+    alert("You lose!")
+}else if(input==="Paper" && aiPick==="Rock") {
+    alert("You win!")
+}if(input==="Scissors" && aiPick==="Scissors") {
+    alert("Tie game!") //Rock vs Rock
+} else if(input==="Scissors" && aiPick==="Rock") {
+    alert("You lose!")
+}else if(input==="Scissors" && aiPick==="Paper") {
+    alert("You win!")
 }
